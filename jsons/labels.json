@@ -1,1196 +1,1594 @@
-
 {
     "labels": {
         "drawACard": {
-            "English": "Draw a card"
+            "English": "Draw a card",
+            "French": "Piocher une carte"
         },
         "revealEncounterCard": {
-            "English": "Reveal encounter card"
+            "English": "Reveal encounter card",
+            "French": "Révéler une carte Rencontre"
         },
         "revealFacedownEncounterCard": {
-            "English": "Reveal facedown encounter card"
+            "English": "Reveal facedown encounter card",
+            "French": "Placer face cachée une carte Rencontre"
         },
         "revealCardFromSecondEncounterDeck": {
-            "English": "Reveal card from second encounter deck"
+            "English": "Reveal card from second encounter deck",
+            "French": "Révéler 1 carte du 2ème deck Rencontre"
         },
         "revealFacedownCardFromSecondEncounterDeck": {
-            "English": "Reveal facedown card from second encounter deck"
+            "English": "Reveal facedown card from second encounter deck",
+            "French": "Placer face cachée 1 carte du 2ème deck Rencontre"
         },
         "drawCardAndGainResourcesIfHostIncrementRound": {
-            "English": "Draw card and gain resources. If host, increment round."
+            "English": "Draw card and gain resources. If host, increment round.",
+            "French": "Piocher une carte, ajouter Ressources. Si hôte de la partie, incrémenter le compteur Tour"
         },
         "calculateScore": {
-            "English": "Calculate score"
+            "English": "Calculate score",
+            "French": "Calculer décompte"
         },
         "refreshAndRaiseThreatIfHostMove1StPlayerToken": {
-            "English": "Refresh and raise threat. If host, move 1st player token."
+            "English": "Refresh and raise threat. If host, move 1st player token.",
+            "French": "Ph. de Restauration. Augmenter la Menace. Passer le jeton 1er joueur"
         },
         "dealAllShadowCards": {
-            "English": "Deal all shadow cards"
+            "English": "Deal all shadow cards",
+            "French": "Attribuer toutes les cartes ombre"
         },
         "discardAllShadowCards": {
-            "English": "Discard all shadow cards"
+            "English": "Discard all shadow cards",
+            "French": "Défausser toutes les cartes ombre"
         },
         "raiseThreatBy1": {
-            "English": "Raise threat by 1"
+            "English": "Raise threat by 1",
+            "French": "Augmenter Menace de 1"
         },
         "saveGame": {
-            "English": "Save game"
+            "English": "Save game",
+            "French": "Sauvegarder la partie "
         },
         "clearTargetsArrows": {
-            "English": "Clear targets/arrows"
+            "English": "Clear targets/arrows",
+            "French": "Supprimer les cibles/fléches"
         },
         "undoOneAction": {
-            "English": "Undo one action"
+            "English": "Undo one action",
+            "French": "Annuler une action"
         },
         "redoOneAction": {
-            "English": "Redo one action"
+            "English": "Redo one action",
+            "French": "Rétablir une action"
         },
         "moveToPreviousGameStep": {
-            "English": "Move to previous game step"
+            "English": "Move to previous game step",
+            "French": "Revenir sur la précédente étape"
         },
         "moveToNextGameStep": {
-            "English": "Move to next game step"
+            "English": "Move to next game step",
+            "French": "Avancer à la prochaine étape"
         },
         "moveToPreviousPhase": {
-            "English": "Move to previous phase"
+            "English": "Move to previous phase",
+            "French": "Revenir phase précédente"
         },
         "moveToNextPhase": {
-            "English": "Move to next phase"
+            "English": "Move to next phase",
+            "French": "Avancer prochaine phase"
         },
         "ifHostEnableMultiplayerHotkeys": {
-            "English": "If host, enable multiplayer hotkeys"
+            "English": "If host, enable multiplayer hotkeys",
+            "French": "Si hôte de la partie, activer les raccourcis multijoueur"
         },
         "pressShiftNForAllPlayers": {
-            "English": "Press Shift+N for all players"
+            "English": "Press Shift+N for all players",
+            "French": "Déclencher Shift+N pour tous les joueurs"
         },
         "pressShiftRForAllPlayers": {
-            "English": "Press Shift+R for all players"
+            "English": "Press Shift+R for all players",
+            "French": "Déclencher Shift+R pour tous les joueurs"
         },
         "raiseThreatBy1ForAllPlayers": {
-            "English": "Raise threat by 1 for all players"
+            "English": "Raise threat by 1 for all players",
+            "French": "Augmenter Menace de 1 pour tous les joueurs"
         },
         "reduceThreatBy1ForAllPlayers": {
-            "English": "Reduce threat by 1 for all players"
+            "English": "Reduce threat by 1 for all players",
+            "French": "Réduire Menace de 1 pour tous les joueurs"
         },
         "drawCardOnBehalfOfNextEmptySeat": {
-            "English": "Draw card on behalf of next empty seat"
+            "English": "Draw card on behalf of next empty seat",
+            "French": "Tirer une carte pour la prochaine place vide"
         },
         "exhaustReadyIfLocationMakeActive": {
-            "English": "Exhaust / ready. If location, make active."
+            "English": "Exhaust / ready. If location, make active.",
+            "French": "Incliner / redresser. Rendre un lieu actif"
         },
         "detach": {
-            "English": "Detach"
+            "English": "Detach",
+            "French": "Détacher"
         },
         "flip": {
-            "English": "Flip"
+            "English": "Flip",
+            "French": "Retourner"
         },
         "shuffleIntoOwnerSDeck": {
-            "English": "Shuffle into owner's deck"
+            "English": "Shuffle into owner's deck",
+            "French": "Mélanger dans le deck du contrôleur"
         },
         "commitUncommitFromQuest": {
-            "English": "Commit / uncommit from quest"
+            "English": "Commit / uncommit from quest",
+            "French": "S'engager / se désengager de la quête"
         },
         "commitUncommitFromQuestWithoutExhaustingReadying": {
-            "English": "Commit / uncommit from quest without exhausting / readying"
+            "English": "Commit / uncommit from quest without exhausting / readying",
+            "French": "S'engager / se désengager de la quête sans s'incliner / se redresser"
         },
         "dealShadowCard": {
-            "English": "Deal shadow card"
+            "English": "Deal shadow card",
+            "French": "Attribuer une carte d'ombre"
         },
         "targetCard": {
-            "English": "Target card"
+            "English": "Target card",
+            "French": "Cibler une carte"
         },
         "addToVictoryDisplay": {
-            "English": "Add to victory display"
+            "English": "Add to victory display",
+            "French": "Ajouter à pile de victoire"
         },
         "discard": {
-            "English": "Discard"
+            "English": "Discard",
+            "French": "Défausser"
         },
         "discardOrAdvance": {
-            "English": "Discard (if quest card, advance quest)"
+            "English": "Discard (if quest card, advance quest)",
+            "French": "Défausser (si c'est une carte de quête, avancer la quête)"
         },
         "discardAllOtherCardsInThisCardSStack": {
-            "English": "Discard all other cards in this card's stack"
+            "English": "Discard all other cards in this card's stack",
+            "French": "Défausser toute autre carte attachée"
         },
         "sendAttachmentToBackOfStack": {
-            "English": "Send attachment to back of stack"
+            "English": "Send attachment to back of stack",
+            "French": "Envoyer l'attachement à la fin de la pile"
         },
         "triggerAbilityOnlyAvailableForSelectCards": {
-            "English": "Trigger ability (only available for select cards)"
+            "English": "Trigger ability (only available for select cards)",
+            "French": "Déclencher un trait (disponible que pour certaines cartes)."
         },
         "layout1Player": {
-            "English": "1 player"
+            "English": "1 player",
+            "French": "1 joueur"
         },
         "layout2Player": {
-            "English": "2 players"
+            "English": "2 players",
+            "French": "2 joueurs"
         },
         "layout3Player": {
-            "English": "3 players"
+            "English": "3 players",
+            "French": "3 joueurs"
         },
         "layout4Player": {
-            "English": "4 players"
+            "English": "4 players",
+            "French": "4 joueurs"
         },
         "layout1PlayerMap": {
-            "English": "1 player (Map)"
+            "English": "1 player (Map)",
+            "French": "1 joueur (carte)"
         },
         "layout2PlayerMap": {
-            "English": "2 players (Map)"
+            "English": "2 players (Map)",
+            "French": "2 joueurs (carte)"
         },
         "layout3PlayerMap": {
-            "English": "3 players (Map)"
+            "English": "3 players (Map)",
+            "French": "3 joueurs (carte)"
         },
         "layout4PlayerMap": {
-            "English": "4 players (Map)"
+            "English": "4 players (Map)",
+            "French": "4 joueurs (carte)"
         },
         "layout2PlayerMultiStaging": {
-            "English": "2 players (Multiple Staging Areas)"
+            "English": "2 players (Multiple Staging Areas)",
+            "French": "2 joueurs (Z. Cheminement multiples)"
         },
         "layout3PlayerMultiStaging": {
-            "English": "3 players (Multiple Staging Areas)"
+            "English": "3 players (Multiple Staging Areas)",,
+            "French": "3 joueurs (Z. Cheminement multiples)"
         },
         "layout4PlayerMultiStaging": {
-            "English": "4 players (Multiple Staging Areas)"
+            "English": "4 players (Multiple Staging Areas)",,
+            "French": "4 joueurs (Z. Cheminement multiples)"
         },
         "layout1PlayerExtra4": {
-            "English": "1 player (4 extra rows)"
+            "English": "1 player (4 extra rows)",
+            "French": "1 joueur (4 lignes en plus)"
         },
         "layout2PlayerExtra4": {
-            "English": "2 players (4 extra rows)"
+            "English": "2 players (4 extra rows)",
+            "French": "2 joueurs (4 lignes en plus)"
         },
         "layout3PlayerExtra4": {
-            "English": "3 players (4 extra rows)"
+            "English": "3 players (4 extra rows)",
+            "French": "3 joueurs (4 lignes en plus)"
         },
         "layout4PlayerExtra4": {
-            "English": "4 players (4 extra rows)"
+            "English": "4 players (4 extra rows)",
+            "French": "4 joueur (4 lignes en plus)"
         },
         "alpha": {
-            "English": "α"
+            "English": "α",
+            "French": "α"
         },
         "resource": {
-            "English": "Resource"
+            "English": "Resource",
+            "French": "Ressources"
         },
         "planning": {
-            "English": "Planning"
+            "English": "Planning",
+            "French": "Organisation"
         },
         "quest": {
-            "English": "Quest"
+            "English": "Quest",
+            "French": "Quête"
         },
         "travel": {
-            "English": "Travel"
+            "English": "Travel",
+            "French": "Voyage"
         },
         "encounter": {
-            "English": "Encounter"
+            "English": "Encounter",
+            "French": "Rencontre"
         },
         "combat": {
-            "English": "Combat"
+            "English": "Combat",
+            "French": "Combat"
         },
         "refresh": {
-            "English": "Refresh"
+            "English": "Refresh",
+            "French": "Restauration"
         },
         "omega": {
-            "English": "Ω"
+            "English": "Ω",
+            "French": "Ω"
         },
         "cardsPerRound": {
-            "English": "Cards Per Round"
+            "English": "Cards Per Round",
+            "French": "Nombre de cartes/tour"
         },
         "normalQuest": {
-            "English": "Normal Quest"
+            "English": "Normal Quest",
+            "French": "Mode normale"
         },
         "battleQuest": {
-            "English": "Battle Quest"
+            "English": "Battle Quest",
+            "French": "Mode Bataille"
         },
         "siegeQuest": {
-            "English": "Siege Quest"
+            "English": "Siege Quest",
+            "French": "Mode Siège"
         },
         "setupEscapeFromMountGram": {
-            "English": "Setup Escape from Mount Gram"
+            "English": "Setup Escape from Mount Gram",
+            "French": "Préparation : Fuite du Mont Gram"
         },
         "setupToCatchAnOrc": {
-            "English": "Setup To Catch an Orc"
+            "English": "Setup To Catch an Orc",
+            "French": "Préparation : Chasse à l'orque"
+			
         },
         "setupGlitteringCaves": {
-            "English": "Setup The Glittering Caves"
+            "English": "Setup The Glittering Caves",
+            "French": "Préparation : Les Cavernes Scintillantes"
         },
         "setupTheFortressOfNurn": {
-            "English": "Setup The Fortress of Nurn"
+            "English": "Setup The Fortress of Nurn",
+            "French": "Préparation : La Forteresse de Nurn"
         },
         "step-0.0": {
-            "English": "0.0: Beginning of the round"
+            "English": "0.0: Beginning of the round",
+            "French": "Début du tour"
         },
         "step-1.1": {
-            "English": "1.1: Beginning of the Resource phase"
+            "English": "1.1: Beginning of the Resource phase",
+            "French": "1.1: Début de la phase de Ressource"
         },
         "step-1.2-1.3": {
-            "English": "1.2 & 1.3: Gain resources and draw cards - then player actions"
+            "English": "1.2 & 1.3: Gain resources and draw cards - then player actions",
+            "French": "1.2 & 1.3: Gain de ressources et pioche de cartes - puis actions des joueurs"
         },
         "step-1.4": {
-            "English": "1.4: End of the Resource phase"
+            "English": "1.4: End of the Resource phase",
+            "French": "1.4: Fin de la phase de Ressource"
         },
         "step-2.1": {
-            "English": "2.1: Beginning of the Planning phase"
+            "English": "2.1: Beginning of the Planning phase",
+            "French": "2.1: Début de la phase d'Organisation"
         },
         "step-2.2-2.3": {
-            "English": "2.2 & 2.3: Play cards in turn order - player actions throughout"
+            "English": "2.2 & 2.3: Play cards in turn order - player actions throughout",
+            "French": "2.2 & 2.3: Cartes jouées selon le tour de jeu - actions des joueurs à tout moment"
         },
         "step-2.4": {
-            "English": "2.4: End of the Planning phase"
+            "English": "2.4: End of the Planning phase",
+            "French": "2.4: Fin de la phase d'Organisation"
         },
         "step-3.1": {
-            "English": "3.1: Beginning of the Quest phase - then player actions"
+            "English": "3.1: Beginning of the Quest phase - then player actions",
+            "French": "3.1: Début de la phase de Quête - puis actions des joueurs"
         },
         "step-3.2": {
-            "English": "3.2: Commit characters to the quest - then player actions"
+            "English": "3.2: Commit characters to the quest - then player actions",
+            "French": "3.2: Engager des personnages dans la quête - puis actions des joueurs,"
         },
         "step-3.3": {
-            "English": "3.3: Staging - then player actions"
+            "English": "3.3: Staging - then player actions",
+            "French": "3.3: Étape de renforcement - puis actions des joueurs"
         },
         "step-3.4": {
-            "English": "3.4: Quest resolution - <u>then player actions</u>"
+            "English": "3.4: Quest resolution - <u>then player actions</u>",
+            "French": "3.4: Résolution de la quête - <u>puis actions des joueurs</u>"
         },
         "step-3.5": {
-            "English": "3.5: End of the Quest phase"
+            "English": "3.5: End of the Quest phase",
+            "French": "3.5: fin de la phase de quête"
         },
         "step-4.1": {
-            "English": "4.1: Beginning of the Travel phase"
+            "English": "4.1: Beginning of the Travel phase",
+            "French": "4.1: Début de la phase de Voyage"
         },
         "step-4.2": {
-            "English": "4.2: Travel opportunity - <u>then player actions</u>"
+            "English": "4.2: Travel opportunity - <u>then player actions</u>",
+            "French": "4.2: Opportunités de voyage - <u>puis actions des joueurs</u>"
         },
         "step-4.3": {
-            "English": "4.3: End of the Travel phase"
+            "English": "4.3: End of the Travel phase",
+            "French": "4.3: fin de la phase de Voyage"
         },
         "step-5.1": {
-            "English": "5.1: Beginning of the Encounter phase"
+            "English": "5.1: Beginning of the Encounter phase",
+            "French": "5.1 Début de la phase de Rencontre"
         },
         "step-5.2": {
-            "English": "5.2: Optional engagement - <u>then player actions</u>"
+            "English": "5.2: Optional engagement - <u>then player actions</u>",
+            "French": "5.2: Engagement intentionnel - <u>puis actions des joueurs</u>"
         },
         "step-5.3": {
-            "English": "5.3: Engagement checks - <u>then player actions</u>"
+            "English": "5.3: Engagement checks - <u>then player actions</u>",
+            "French": "5.3: Test d'engagement - <u>puis actions des joueurs</u>"
         },
         "step-5.4": {
-            "English": "5.4: End of the Encounter phase"
+            "English": "5.4: End of the Encounter phase",
+            "French": "5.4 Fin de la phase de Rencontre"
         },
         "step-6.1": {
-            "English": "6.1: Beginning of the Combat phase"
+            "English": "6.1: Beginning of the Combat phase",
+            "French": "6.1 Début de la phase de Combat"
         },
         "step-6.2": {
-            "English": "6.2: Deal shadow cards"
+            "English": "6.2: Deal shadow cards",
+            "French": "6.2: Attribution des cartes ombre"
         },
         "step-6.3-6.6": {
-            "English": "6.3-6.6: Enemy attacks - <u>player actions after each combat substep</u>"
+            "English": "6.3-6.6: Enemy attacks - <u>player actions after each combat substep</u>",
+            "French": "6.3-6.6: Attaques ennemis -<u>action des joueurs après chaque étape du combat</u>
         },
         "step-6.7-6.10": {
-            "English": "6.7-6.10: Player attacks - <u>player actions after each combat substep</u>"
+            "English": "6.7-6.10: Player attacks - <u>player actions after each combat substep</u>",
+            "French": "6.7-6.10: Attaque joueurs <u>action des joueurs après chaque étape du combat</u>"
         },
         "step-6.11": {
-            "English": "6.11: End of the Combat phase"
+            "English": "6.11: End of the Combat phase",
+            "French": "6.11: Fin de la phase de Combat"
         },
         "step-7.1": {
-            "English": "7.1: Beginning of the Refresh phase"
+            "English": "7.1: Beginning of the Refresh phase",
+            "French": "7.1 : Début de la phase de Restauration"
         },
         "step-7.2-7.4": {
-            "English": "7.2-7.4: Ready cards, raise threat, pass P1 token - <u>then player actions</u>"
+            "English": "7.2-7.4: Ready cards, raise threat, pass P1 token - <u>then player actions</u>",
+            "French": "7.2-7.4: "Redresser des cartes, augmenter la Menace de 1, transferer jeton 1er joueur - <u>puis actions des joueurs</u>"
         },
         "step-7.5": {
-            "English": "7.5: End of the Refresh phase"
+            "English": "7.5: End of the Refresh phase",
+            "French": "7.5: Fin de la phase de Restauration"
         },
         "step-0.1": {
-            "English": "0.1: End of the round"
+            "English": "0.1: End of the round",
+            "French": "0.1 Fin du tour"
         },
         "resourceToken": {
-            "English": "Resource"
+            "English": "Resource",
+            "French": "Ressources"
         },
         "progressToken": {
-            "English": "Progress"
+            "English": "Progress",
+            "French": "Progression"
         },
         "damageToken": {
-            "English": "Damage"
+            "English": "Damage",
+            "French": "Dégâts"
         },
         "timeToken": {
-            "English": "Time"
+            "English": "Time",
+            "French": "Temps"
         },
         "willpowerToken": {
-            "English": "Willpower"
+            "English": "Willpower",
+            "French": "Volonté"
         },
         "threatToken": {
-            "English": "Threat"
+            "English": "Threat",
+            "French": "Menace"
         },
         "attackToken": {
-            "English": "Attack"
+            "English": "Attack",
+            "French": "Attaque"
         },
         "defenseToken": {
-            "English": "Defense"
+            "English": "Defense",
+            "French": "Défense"
         },
         "hitPointToken": {
-            "English": "Hit Point"
+            "English": "Hit Point",
+            "French": "Points de vie"
         },
         "round": {
-            "English": "Round"
+            "English": "Round",
+            "French": "Tour"
         },
         "stagingThreat": {
-            "English": "Staging Threat"
+            "English": "Staging Threat",
+            "French": "Menace"
         },
         "stagingProgress": {
-            "English": "Staging Progress"
+            "English": "Staging Progress",
+            "French": "progression"
         },
         "threat": {
-            "English": "Threat"
+            "English": "Threat",
+            "French": "Menace"
         },
         "willpower": {
-            "English": "Questing Willpower"
+            "English": "Questing Willpower",
+            "French": "Volonté de Quête"
         },
         "removeTokens": {
-            "English": "Remove Tokens"
+            "English": "Remove Tokens",
+            "French": "Retirer marqueurs"
         },
         "exhautReady": {
-            "English": "Exhaust Ready"
+            "English": "Exhaust Ready",
+            "French": "Incliner"
         },
         "commit": {    
-            "English": "Commit"
+            "English": "Commit",
+            "French": "Engager"
         },
         "shuffle": {    
-            "English": "Shuffle"
+            "English": "Shuffle",
+            "French": "Mélanger"
         },
         "flipTouchButton": {    
-            "English": "Flip"
+            "English": "Flip",
+            "French": "Retourner"
         },
         "shadow": {    
-            "English": "Shadow"
+            "English": "Shadow",
+            "French": "ombre"
         },
         "discardTouchButton": {    
-            "English": "Discard"
+            "English": "Discard",
+            "French": "Défausser"
         },
         "target": {    
-            "English": "Target"
+            "English": "Target",
+            "French": "Cibler"
         },
         "victory": {    
-            "English": "Victory"
+            "English": "Victory",
+            "French": "Victoire"
         },
         "drawArrow": {    
-            "English": "Draw Arrow"
+            "English": "Draw Arrow",
+            "French": "Dessiner fléche"
         },
         "draw": {    
-            "English": "Draw"
+            "English": "Draw",
+            "French": "Piocher"
         },
         "reveal": {    
-            "English": "Reveal"
+            "English": "Reveal",
+            "French": "Révéler"
         },
         "shadows": {    
-            "English": "Shadows"
+            "English": "Shadows",
+            "French": "Ombres"
         },
         "discardShadows": {    
-            "English": "Discard shadows"
+            "English": "Discard shadows",
+            "French": "Défauser carte ombre"
         },
         "refreshTouchButton": {    
-            "English": "Refresh"
+            "English": "Refresh",
+            "French": "Redresser"
         },
         "newRound": {    
-            "English": "New round"
+            "English": "New round",
+            "French": "Nouveau tour"
         },
         "clearTargets": {    
-            "English": "Clear Targets"
+            "English": "Clear Targets",
+            "French": "Supprimer cibles"
         },
         "undo": {    
-            "English": "Undo"
+            "English": "Undo",
+            "French": "Annuler"
         },
         "undoMany": {    
-            "English": "Undo many"
+            "English": "Undo many",
+            "French": "plusieurs annulations"
         },
         "nextStep": {    
-            "English": "Next step"
+            "English": "Next step",
+            "French": "Phase suivante"
         },
         "raiseThreat": {    
-            "English": "Raise threat"
+            "English": "Raise threat",
+            "French": "Augmenter Menace"
         },
         "reduceThreat": {    
-            "English": "Reduce threat"
+            "English": "Reduce threat",
+            "French": "Réduire Menace"
         },
         "save": {    
-            "English": "Save"
+            "English": "Save",
+            "French": "Sauvegarder"
         },
         "reveal2": {    
-            "English": "Reveal #2"
+            "English": "Reveal #2",
+            "French": "Révéler n°2"
         },
         "mulligan": {    
-            "English": "Mulligan"
+            "English": "Mulligan",
+            "French": "Mulligan"
         },
         "score": {    
-            "English": "Score"
+            "English": "Score",
+            "French": "Score"
         },
         "toggleExhaust": {    
-            "English": "Exhaust/Ready"
+            "English": "Exhaust/Ready",
+            "French": "Incliner/Redresser"
         },
         "labelMarkAsVictory": {
-            "English": "Mark as Victory"
+            "English": "Mark as Victory",
+            "French": "Valider comme Victoire"
         },
         "labelMarkAsDefeat": {
-            "English": "Mark as Defeat"
+            "English": "Mark as Defeat",
+            "French": "Valider comme Défaite"
         },
         "labelMarkAsIncomplete": {
-            "English": "Mark as Incomplete"
+            "English": "Mark as Incomplete",
+            "French": "Valider comme Incomplète"
         },
         "easy": {
-            "English": "Easy"
+            "English": "Easy",
+            "French": "Facile"
         },
         "normal": {
-            "English": "Normal"
+            "English": "Normal",
+            "French": "Normal"
         },
         "nightmare": {
-            "English": "Nightmare"
+            "English": "Nightmare",
+            "French": "Cauchemar"
         },
         "Core Set & Shadows of Mirkwood": {
-            "English": "Core Set & Shadows of Mirkwood"
+            "English": "Core Set & Shadows of Mirkwood",
+            "French": "Boîte de base & Ombres de la Forêt Noire"
         },
         "Passage Through Mirkwood": {
-            "English": "Passage Through Mirkwood"
+            "English": "Passage Through Mirkwood",
+            "French": "Passage dans la Forêt Noire"
         },
         "Journey Along the Anduin": {
-            "English": "Journey Along the Anduin"
+            "English": "Journey Along the Anduin",
+            "French": "Voyage le Long de l'Anduin"
         },
         "Escape from Dol Guldur": {
-            "English": "Escape from Dol Guldur"
+            "English": "Escape from Dol Guldur",
+            "French": "Évasion de Dol Guldur"
         },
         "The Hunt for Gollum": {
-            "English": "The Hunt for Gollum"
+            "English": "The Hunt for Gollum",
+            "French": "À la Poursuite de Gollum"
         },
         "Conflict at the Carrock": {
-            "English": "Conflict at the Carrock"
+            "English": "Conflict at the Carrock",
+            "French": "Conflit au Carrock"
         },
         "A Journey to Rhosgobel": {
-            "English": "A Journey to Rhosgobel"
+            "English": "A Journey to Rhosgobel",
+            "French": "Voyage à Rhosgobel"
         },
         "The Hills of Emyn Muil": {
-            "English": "The Hills of Emyn Muil"
+            "English": "The Hills of Emyn Muil",
+            "French": "Les Collines d'Emyn Muil"
         },
         "The Dead Marshes": {
-            "English": "The Dead Marshes"
+            "English": "The Dead Marshes",
+            "French": "Les Marais des Morts"
         },
         "Return to Mirkwood": {
-            "English": "Return to Mirkwood"
+            "English": "Return to Mirkwood",
+            "French": "Retour à la Forêt Noire"
         },
         "Khazad-dûm & Dwarrowdelf": {
-            "English": "Khazad-dûm & Dwarrowdelf"
+            "English": "Khazad-dûm & Dwarrowdelf",
+            "French": "Khazad-dûm et Royaume de Cavenain"
         },
         "Into the Pit": {
-            "English": "Into the Pit"
+            "English": "Into the Pit",
+            "French": "Dans le Gouffre Noir"
         },
         "The Seventh Level": {
-            "English": "The Seventh Level"
+            "English": "The Seventh Level",
+            "French": "Le Septième Niveau"
         },
         "Flight from Moria": {
-            "English": "Flight from Moria"
+            "English": "Flight from Moria",
+            "French": "Fuir la Moria"
         },
         "The Redhorn Gate": {
-            "English": "The Redhorn Gate"
+            "English": "The Redhorn Gate",
+            "French": "La Porte de Rubicorne"
         },
         "Road to Rivendell": {
-            "English": "Road to Rivendell"
+            "English": "Road to Rivendell",
+            "French": "La Route vers Fondcombe"
         },
         "The Watcher in the Water": {
-            "English": "The Watcher in the Water"
+            "English": "The Watcher in the Water",
+            "French": "Le Guetteur de l'Eau"
         },
         "The Long Dark": {
-            "English": "The Long Dark"
+            "English": "The Long Dark",
+            "French": "La Longue Obscurité"
         },
         "Foundations of Stone": {
-            "English": "Foundations of Stone"
+            "English": "Foundations of Stone",
+            "French": "Fondations de Pierre"
         },
         "Shadow and Flame": {
-            "English": "Shadow and Flame"
+            "English": "Shadow and Flame",
+            "French": "L'Ombre et la Flamme"
         },
         "Heirs of Númenor & Against the Shadow": {
-            "English": "Heirs of Númenor & Against the Shadow"
+            "English": "Heirs of Númenor & Against the Shadow",
+            "French": "Les Héritiers de Númenor & Face à l'Ombre"
         },
         "Peril In Pelargir": {
-            "English": "Peril In Pelargir"
+            "English": "Peril In Pelargir",
+            "French": "Bagarre à Pelargir"
         },
         "Into Ithilien": {
-            "English": "Into Ithilien"
+            "English": "Into Ithilien",
+            "French": "En Ithilien"
         },
         "The Siege of Cair Andros": {
-            "English": "The Siege of Cair Andros"
+            "English": "The Siege of Cair Andros",
+            "French": "Le Siège de Cair Andros"
         },
         "The Steward's Fear": {
-            "English": "The Steward's Fear"
+            "English": "The Steward's Fear",
+            "French": "Les Craintes de l'Intendant"
         },
         "The Drúadan Forest": {
-            "English": "The Drúadan Forest"
+            "English": "The Drúadan Forest",
+            "French": "La Forêt de Drúadan"
         },
         "Encounter at Amon Dîn": {
-            "English": "Encounter at Amon Dîn"
+            "English": "Encounter at Amon Dîn",
+            "French": "Rencontre à Amon Dîn"
         },
         "Assault on Osgiliath": {
-            "English": "Assault on Osgiliath"
+            "English": "Assault on Osgiliath",
+            "French": "Assaut sur Osgiliath"
         },
         "The Blood of Gondor": {
-            "English": "The Blood of Gondor"
+            "English": "The Blood of Gondor",
+            "French": "Le Sang du Gondor"
         },
         "The Morgul Vale": {
-            "English": "The Morgul Vale"
+            "English": "The Morgul Vale",
+            "French": "La Vallée de Morgul"
         },
         "The Voice of Isengard & The Ringmaker": {
-            "English": "The Voice of Isengard & The Ringmaker"
+            "English": "The Voice of Isengard & The Ringmaker",
+            "French": "L'Appel de l'Isengard & Le Créateur d'Anneaux"
         },
         "Fords of Isen": {
-            "English": "Fords of Isen"
+            "English": "Fords of Isen",
+            "French": "Les Gués de l'Isen"
         },
         "To Catch an Orc": {
-            "English": "To Catch an Orc"
+            "English": "To Catch an Orc",
+            "French": "Chasse à l'Orque"
         },
         "Into Fangorn": {
-            "English": "Into Fangorn"
+            "English": "Into Fangorn",
+            "French": "À Fangorn"
         },
         "The Dunland Trap": {
-            "English": "The Dunland Trap"
+            "English": "The Dunland Trap",
+            "French": "Piégé au Pays de Dun !"
         },
         "The Three Trials": {
-            "English": "The Three Trials"
+            "English": "The Three Trials",
+            "French": "Les Trois Épreuves"
         },
         "Trouble in Tharbad": {
-            "English": "Trouble in Tharbad"
+            "English": "Trouble in Tharbad",
+            "French": "Panique à Tharbad"
         },
         "The Nin in Eilph": {
-            "English": "The Nin in Eilph"
+            "English": "The Nin in Eilph",
+            "French": "Les Nîn-in-Eilph"
         },
         "Celebrimbor's Secret": {
-            "English": "Celebrimbor's Secret"
+            "English": "Celebrimbor's Secret",
+            "French": "Le Secret de Celebrimbor"
         },
         "The Antlered Crown": {
-            "English": "The Antlered Crown"
+            "English": "The Antlered Crown",
+            "French": "La Couronne d'Andouillers"
         },
         "The Lost Realm & Angmar Awakened": {
-            "English": "The Lost Realm & Angmar Awakened"
+            "English": "The Lost Realm & Angmar Awakened",
+            "French": "Le Royaume Perdu & Le Réveil d'Angmar"
         },
         "Intruders in Chetwood": {
-            "English": "Intruders in Chetwood"
+            "English": "Intruders in Chetwood",
+            "French": "Intrus au Bois de Chet"
         },
         "The Weather Hills": {
-            "English": "The Weather Hills"
+            "English": "The Weather Hills",
+            "French": "Les Collines Venteuses"
         },
         "Deadmen's Dike": {
-            "English": "Deadmen's Dike"
+            "English": "Deadmen's Dike",
+            "French": "La Chaussée des Morts"
         },
         "The Wastes of Eriador": {
-            "English": "The Wastes of Eriador"
+            "English": "The Wastes of Eriador",
+            "French": "Les Désolations d'Eriador"
         },
         "Escape from Mount Gram": {
-            "English": "Escape from Mount Gram"
+            "English": "Escape from Mount Gram",
+            "French": "Fuite du Mont Gram"
         },
         "Across the Ettenmoors": {
-            "English": "Across the Ettenmoors"
+            "English": "Across the Ettenmoors",
+            "French": "La Traversée des Landes d'Etten"
         },
         "The Treachery of Rhudaur": {
-            "English": "The Treachery of Rhudaur"
+            "English": "The Treachery of Rhudaur",
+            "French": "La Perfidie du Rhudaur"
         },
         "The Battle of Carn Dum": {
-            "English": "The Battle of Carn Dum"
+            "English": "The Battle of Carn Dum",
+            "French": "La Bataille de Carn Dûm"
         },
         "The Dread Realm": {
-            "English": "The Dread Realm"
+            "English": "The Dread Realm",
+            "French": "Le Royaume de l'Effroi"
         },
         "The Grey Havens & The Dreamchaser": {
-            "English": "The Grey Havens & The Dreamchaser"
+            "English": "The Grey Havens & The Dreamchaser",
+            "French": "Les Havres Gris & le Chasse-Rêve"
         },
         "Voyage Across Belegaer": {
-            "English": "Voyage Across Belegaer"
+            "English": "Voyage Across Belegaer",
+            "French": "Voyage sur la Belegaer"
         },
         "The Fate of Numenor": {
-            "English": "The Fate of Numenor"
+            "English": "The Fate of Numenor",
+            "French": "Le Destin de Númenor"
         },
         "Raid on the Grey Havens": {
-            "English": "Raid on the Grey Havens"
+            "English": "Raid on the Grey Havens",
+            "French": "Raid sur les Havres Gris"
         },
         "Flight of the Stormcaller": {
-            "English": "Flight of the Stormcaller"
+            "English": "Flight of the Stormcaller",
+            "French": "La Fuite de La Tourmente"
         },
         "The Thing in the Depths": {
-            "English": "The Thing in the Depths"
+            "English": "The Thing in the Depths",
+            "French": "La Chose des Profondeurs"
         },
         "Temple of the Deceived": {
-            "English": "Temple of the Deceived"
+            "English": "Temple of the Deceived",
+            "French": "Temple des Dupes"
         },
         "The Drowned Ruins": {
-            "English": "The Drowned Ruins"
+            "English": "The Drowned Ruins",
+            "French": "Les Ruines Immergées"
         },
         "A Storm on Cobas Haven": {
-            "English": "A Storm on Cobas Haven"
+            "English": "A Storm on Cobas Haven",
+            "French": "Une Tempête sur le Havre de Cobas"
         },
         "The City of Corsairs": {
-            "English": "The City of Corsairs"
+            "English": "The City of Corsairs",
+            "French": "La Cité des Corsaires"
         },
         "The Sands of Harad & The Haradrim": {
-            "English": "The Sands of Harad & The Haradrim"
+            "English": "The Sands of Harad & The Haradrim",
+            "French": "Les Sables de Harad & Les Haradrim"
         },
         "Escape from Umbar": {
-            "English": "Escape from Umbar"
+            "English": "Escape from Umbar",
+            "French": "Fuite d'Umbar"
         },
         "Desert Crossing": {
-            "English": "Desert Crossing"
+            "English": "Desert Crossing",
+            "French": "La Traversée du Désert"
         },
         "The Long Arm of Mordor": {
-            "English": "The Long Arm of Mordor"
+            "English": "The Long Arm of Mordor",
+            "French": "Le Souffle du Mordor"
         },
         "The Mumakil": {
-            "English": "The Mumakil"
+            "English": "The Mumakil",
+            "French": "Les Mûmakil"
         },
         "Race Across Harad": {
-            "English": "Race Across Harad"
+            "English": "Race Across Harad",
+            "French": "Course en Harad"
         },
         "Beneath the Sands": {
-            "English": "Beneath the Sands"
+            "English": "Beneath the Sands",
+            "French": "Sous les Sables"
         },
         "The Black Serpent": {
-            "English": "The Black Serpent"
+            "English": "The Black Serpent",
+            "French": "Le Serpent Noir"
         },
         "The Dungeons of Cirith Gurat": {
-            "English": "The Dungeons of Cirith Gurat"
+            "English": "The Dungeons of Cirith Gurat",
+            "French": "Les Cachots de Cirith Gurat"
         },
         "The Crossings of Poros": {
-            "English": "The Crossings of Poros"
+            "English": "The Crossings of Poros",
+            "French": "Les Gués du Poros"
         },
         "The Wilds of Rhovanion & Ered Mithrin": {
-            "English": "The Wilds of Rhovanion & Ered Mithrin"
+            "English": "The Wilds of Rhovanion & Ered Mithrin",
+            "French": "Les Terres Sauvages du Rhovanion et Ered Mithrin"
         },
         "Journey Up the Anduin": {
-            "English": "Journey Up the Anduin"
+            "English": "Journey Up the Anduin",
+            "French": "La Remontée de l'Anduin"
         },
         "Lost in Mirkwood": {
-            "English": "Lost in Mirkwood"
+            "English": "Lost in Mirkwood",
+            "French": "Perdus dans la Forêt Noire"
         },
         "The King's Quest": {
-            "English": "The King's Quest"
+            "English": "The King's Quest",
+            "French": "La Quête du Roi"
         },
         "The Withered Heath": {
-            "English": "The Withered Heath"
+            "English": "The Withered Heath",
+            "French": "La Brande Désséchée"
         },
         "Roam Across Rhovanion": {
-            "English": "Roam Across Rhovanion"
-        },
+            "English": "Roam Across Rhovanion",
+            "French": ""
+        },Errance au Rhovanion
         "Fire in the Night": {
-            "English": "Fire in the Night"
+            "English": "Fire in the Night",
+            "French": "Des Flammes dans la Nuit"
         },
         "The Ghost of Framsburg": {
-            "English": "The Ghost of Framsburg"
+            "English": "The Ghost of Framsburg",
+            "French": "Le Fantôme de Framsbourg"
         },
         "Mount Gundabad": {
-            "English": "Mount Gundabad"
+            "English": "Mount Gundabad",
+            "French": "Mont Gundabad"
         },
         "The Fate of Wilderland": {
-            "English": "The Fate of Wilderland"
+            "English": "The Fate of Wilderland",
+            "French": "Le Destin des Terres Sauvages"
         },
         "A Shadow in the East & Vengenace of Mordor": {
-            "English": "A Shadow in the East & Vengenace of Mordor"
+            "English": "A Shadow in the East & Vengenace of Mordor",
+            "French": ""
         },
         "The River Running": {
-            "English": "The River Running"
+            "English": "The River Running",
+            "French": "La Rivière Courante"
         },
         "Danger in Dorwinian": {
-            "English": "Danger in Dorwinian"
+            "English": "Danger in Dorwinian",
+            "French": "Danger au Dorwinion"
         },
         "Temple of Doom": {
-            "English": "Temple of Doom"
+            "English": "Temple of Doom",
+            "French": "Le Temple Maudit"
         },
         "Wrath and Ruin": {
-            "English": "Wrath and Ruin"
+            "English": "Wrath and Ruin",
+            "French": "Courroux Destructeur"
         },
         "The City of Ulfast": {
-            "English": "The City of Ulfast"
+            "English": "The City of Ulfast",
+            "French": "La Cité d'Ulfast"
         },
         "Challenge of the Wainriders": {
-            "English": "Challenge of the Wainriders"
+            "English": "Challenge of the Wainriders",
+            "French": "Le Défi des Gens-des-Chariots"
         },
         "Under the Ash Mountains": {
-            "English": "Under the Ash Mountains"
+            "English": "Under the Ash Mountains",
+            "French": "Sous les Monts de Cendre"
         },
         "The Land of Sorrow": {
-            "English": "The Land of Sorrow"
+            "English": "The Land of Sorrow",
+            "French": "La Terre des Lamentations"
         },
         "The Fortress of Nurn": {
-            "English": "The Fortress of Nurn"
+            "English": "The Fortress of Nurn",
+            "French": "La Forteresse de Nurn"
         },
         "The Hobbit": {
-            "English": "The Hobbit"
+            "English": "The Hobbit",
+            "French": "Le Hobbit - Extention de Saga"
         },
         "We Must Away Ere Break of Day": {
-            "English": "We Must Away Ere Break of Day"
+            "English": "We Must Away Ere Break of Day",
+            "French": "Il nous Faut Aller avant le Lever du Jour"
         },
         "Over the Misty Mountains Grim": {
-            "English": "Over the Misty Mountains Grim"
+            "English": "Over the Misty Mountains Grim",
+            "French": "Au-delà des Montagnes Froides et Embrumées"
         },
         "Dungeons Deep and Caverns Dim": {
-            "English": "Dungeons Deep and Caverns Dim"
+            "English": "Dungeons Deep and Caverns Dim",
+            "French": "Des Cachots Profonds et des Cavernes Obscures"
         },
         "Flies and Spiders": {
-            "English": "Flies and Spiders"
+            "English": "Flies and Spiders",
+            "French": "Mouches et Araignées"
         },
         "The Lonely Mountain": {
-            "English": "The Lonely Mountain"
+            "English": "The Lonely Mountain",
+            "French": "Le Mont Solitaire"
         },
         "The Battle of Five Armies": {
-            "English": "The Battle of Five Armies"
+            "English": "The Battle of Five Armies",
+            "French": "La Bataille des Cinq Armées"
         },
         "The Lord of the Rings Standalone": {
-            "English": "The Lord of the Rings Standalone"
+            "English": "The Lord of the Rings Standalone",
+            "French": "Le Seigneur des Anneaux - Extention de Saga"
         },
         "The Lord of the Rings Campaign": {
-            "English": "The Lord of the Rings Campaign"
+            "English": "The Lord of the Rings Campaign",
+            "French": "Le Seigneur des Anneaux - Campagne étendue"
         },
         "The Passage of the Marshes": {
-            "English": "The Passage of the Marshes"
+            "English": "The Passage of the Marshes",
+            "French": "La Traversée des Marais"
         },
         "Journey to the Cross roads": {
-            "English": "Journey to the Cross roads"
+            "English": "Journey to the Cross roads",
+            "French": "Voyage à la Croisée des Chemins"
         },
         "Shelob's Lair": {
-            "English": "Shelob's Lair"
+            "English": "Shelob's Lair",
+            "French": "L'Antre d'Arachne"
         },
         "The Passing of the Grey Company": {
-            "English": "The Passing of the Grey Company"
+            "English": "The Passing of the Grey Company",
+            "French": "Le Passage de la Compagnie Grise"
         },
         "The Siege of Gondor": {
-            "English": "The Siege of Gondor"
+            "English": "The Siege of Gondor",
+            "French": "Le Siège du Gondor"
         },
         "The Battle of the Pelennor Fields": {
-            "English": "The Battle of the Pelennor Fields"
+            "English": "The Battle of the Pelennor Fields",
+            "French": "La Bataille des Champs du Pelennor"
         },
         "The Tower of Cirith Ungol": {
-            "English": "The Tower of Cirith Ungol"
+            "English": "The Tower of Cirith Ungol",
+            "French": "La Tour de Cirith Ungol"
         },
         "The Black Gate Opens": {
-            "English": "The Black Gate Opens"
+            "English": "The Black Gate Opens",
+            "French": "La Porte Noire s'Ouvre"
         },
         "Mount Doom": {
-            "English": "Mount Doom"
+            "English": "Mount Doom",
+            "French": "Montagne du Destin"
         },
         "Two-Player Limited-Edition Starter": {
-            "English": "Two-Player Limited-Edition Starter"
+            "English": "Two-Player Limited-Edition Starter",
+            "French": "Two-Player Limited-Edition Starter"
         },
         "Print on Demand": {
-            "English": "Print on Demand"
+            "English": "Print on Demand",
+            "French": "Scenarios indépendants"
         },
         "Attack on Dol Guldur": {
-            "English": "Attack on Dol Guldur"
+            "English": "Attack on Dol Guldur",
+            "French": "Attaque sur Dol Guldur"
         },
         "The Wizard's Quest": {
-            "English": "The Wizard's Quest"
+            "English": "The Wizard's Quest",
+            "French": "La Quête du Magicien"
         },
         "The Woodland Realm": {
-            "English": "The Woodland Realm"
+            "English": "The Woodland Realm",
+            "French": "Le Royaume Sylvestre"
         },
         "The Mines of Moria": {
-            "English": "The Mines of Moria"
+            "English": "The Mines of Moria",
+            "French": "The Mines of Moria"
         },
         "Escape from Khazad dûm": {
-            "English": "Escape from Khazad dûm"
+            "English": "Escape from Khazad dûm",
+            "French": "Escape from Khazad dûm"
         },
         "The Hunt for the Dreadnaught": {
-            "English": "The Hunt for the Dreadnaught"
+            "English": "The Hunt for the Dreadnaught",
+            "French": "The Hunt for the Dreadnaught"
         },
         "ALeP The Scouring of the Shire": {
-            "English": "ALeP The Scouring of the Shire"
+            "English": "ALeP The Scouring of the Shire",
+            "French": "ALeP Le Nettoyage de la Comté"
         },
         "Campaign": {
-            "English": "Campaign"
+            "English": "Campaign",
+            "French": "Campagne"
         },
         "ALeP - Children of Eorl & Oaths of the Rohirrim": {
-            "English": "ALeP - Children of Eorl & Oaths of the Rohirrim"
+            "English": "ALeP - Children of Eorl & Oaths of the Rohirrim",
+            "French": "ALeP - Les enfants d'Eorl & Serment des Rohirrim"
         },
         "ALeP Ambush at Erelas": {
-            "English": "ALeP Ambush at Erelas"
+            "English": "ALeP Ambush at Erelas",
+            "French": "ALeP Embuscade à Erelas"
         },
         "ALeP The Battle for the Beacon": {
-            "English": "ALeP The Battle for the Beacon"
+            "English": "ALeP The Battle for the Beacon",
+            "French": "AleP La Bataille pour le Feu d'Alarme"
         },
         "ALeP The Horse Lord s Ire": {
-            "English": "ALeP The Horse Lord s Ire"
+            "English": "ALeP The Horse Lord s Ire",
+            "French": "ALep La Colère des Seigneurs des Chevaux"
         },
         "ALeP The Aldburg Plot": {
-            "English": "ALeP The Aldburg Plot"
+            "English": "ALeP The Aldburg Plot",
+            "French": "ALep Complot à Aldburg"
         },
         "ALeP The Gap of Rohan Playtest": {
-            "English": "ALeP The Gap of Rohan Playtest"
+            "English": "ALeP The Gap of Rohan Playtest",
+            "French": "ALeP La Trouée du Rohan Test"
         },
         "ALeP The Glittering Caves Playtest": {
-            "English": "ALeP The Glittering Caves Playtest"
+            "English": "ALeP The Glittering Caves Playtest",
+            "French": "ALep Les Grottes Scintillantes Test"
         },
         "ALeP Mustering of the Rohirrim Playtest": {
-            "English": "ALeP Mustering of the Rohirrim Playtest"
+            "English": "ALeP Mustering of the Rohirrim Playtest",
+            "French": "ALep Rassemblement des Rohirrim Test"
         },
         "ALeP Blood in the Isen Playtest": {
-            "English": "ALeP Blood in the Isen Playtest"
+            "English": "ALeP Blood in the Isen Playtest",
+            "French": "ALep Sang sur l'Isen Test"
         },
         "ALeP - Playtest": {
-            "English": "ALeP - Playtest"
+            "English": "ALeP - Playtest",
+            "French": "ALeP - Test"
         },
         "myDeck": {
-            "English": "My Deck"
+            "English": "My Deck",
+            "French": "Mon Deck"
         },
         "player1Deck": {
-            "English": "Player 1 Deck"
+            "English": "Player 1 Deck",
+            "French": "Deck Joueur 1"
         },
         "player2Deck": {
-            "English": "Player 2 Deck"
+            "English": "Player 2 Deck",
+            "French": "Deck Joueur 2"
         },
         "player3Deck": {
-            "English": "Player 3 Deck"
+            "English": "Player 3 Deck",
+            "French": "Deck Joueur 3"
         },
         "player4Deck": {
-            "English": "Player 4 Deck"
+            "English": "Player 4 Deck",
+            "French": "Deck Joueur 4"
         },
         "sharedQuestDeck": {
-            "English": "Quest Deck"
+            "English": "Quest Deck",
+            "French": "Deck de quête"
         },
         "sharedQuestDeck2": {
-            "English": "Quest Deck"
+            "English": "Quest Deck",
+            "French": "Deck de quête 2"
         },
         "sharedActiveLocation": {
-            "English": "Active Location"
+            "English": "Active Location",
+            "French": "Lieu actif"
         },
         "sharedStagingArea": {
-            "English": "Staging Area"
+            "English": "Staging Area",
+            "French": "Z de cheminement"
       },
         "sharedEncounterDeck": {
-            "English": "Encounter Deck"
+            "English": "Encounter Deck",
+            "French": "Deck de Rencontre"
         },
         "sharedEncounterDeck2": {
-            "English": "Encounter Deck 2"
+            "English": "Encounter Deck 2",
+            "French": "Deck de Rencontre 2"
         },
         "sharedEncounterDeck3": {
-            "English": "Encounter Deck 3"
+            "English": "Encounter Deck 3",
+            "French": "Deck de Rencontre 3"
         },
         "sharedExtra1": {
-            "English": "Extra1"
+            "English": "Extra1",
+            "French": "Extra1"
         },
         "sharedExtra2": {
-            "English": "Extra2"
+            "English": "Extra2",
+            "French": "Extra2"
         },
         "sharedExtra3": {
-            "English": "Extra3"
+            "English": "Extra3",
+            "French": "Extra3"
         },
         "sharedExtra4": {
-            "English": "Extra4"
+            "English": "Extra4",
+            "French": "Extra4"
         },
         "damage": {
-            "English": "damage"
+            "English": "damage",
+            "French": "dégâts"
         },
         "add to VD": {
-            "English": "add to VD"
+            "English": "add to VD",
+            "French": "ajouter à VD"
         },
         "progress": {
-            "English": "progress"
+            "English": "progress",
+            "French": "progression"
         },
         "exhaust": {
-            "English": "exhaust"
+            "English": "exhaust",
+            "French": "Incliner"
         },
         "ready": {
-            "English": "ready"
+            "English": "ready",
+            "French": "Redresser"
         },
         "A Shadow of the Past": {
-            "English": "A Shadow of the Past"
+            "English": "A Shadow of the Past",
+            "French": "L'Ombre du Passé"
         },
         "A Knife in the Dark": {
-            "English": "A Knife in the Dark"
+            "English": "A Knife in the Dark",
+            "French": "Un Poignard dans le Noir"
         },
         "Flight to the Ford": {
-            "English": "Flight to the Ford"
+            "English": "Flight to the Ford",
+            "French": "Fuite vers le Gué"
         },
         "The Ring Goes South": {
-            "English": "The Ring Goes South"
+            "English": "The Ring Goes South",
+            "French": "L'Anneau Prend le Chemin"
         },
         "Journey in the Dark": {
-            "English": "Journey in the Dark"
+            "English": "Journey in the Dark",
+            "French": "Un Voyage dans l'Obscurité"
         },
         "Breaking of the Fellowship": {
-            "English": "Breaking of the Fellowship"
+            "English": "Breaking of the Fellowship",
+            "French": "La Dissolution de la Communauté"
         },
         "The Uruk hai": {
-            "English": "The Uruk hai"
+            "English": "The Uruk hai",
+            "French": "Les Uruk-hai"
         },
         "Helm's Deep": {
-            "English": "Helm's Deep"
+            "English": "Helm's Deep",
+            "French": "Le Gouffre de Helm"
         },
         "The Road to Isengard": {
-            "English": "The Road to Isengard"
+            "English": "The Road to Isengard",
+            "French": "La Route de l'Isengard"
         },
         "The Massing at Osgiliath": {
-            "English": "The Massing at Osgiliath"
+            "English": "The Massing at Osgiliath",
+            "French": "Rassemblement à Osgiliath"
         },
         "The Battle of Lake Town": {
-            "English": "The Battle of Lake Town"
+            "English": "The Battle of Lake Town",
+            "French": "La Bataille de la Ville du Lac"
         },
         "The Stone of Erech": {
-            "English": "The Stone of Erech"
+            "English": "The Stone of Erech",
+            "French": "La Pierre d'Erech"
         },
         "The Old Forest": {
-            "English": "The Old Forest"
+            "English": "The Old Forest",
+            "French": "La Vieille Forêt"
         },
         "Fog on the Barrow downs": {
-            "English": "Fog on the Barrow downs"
+            "English": "Fog on the Barrow downs",
+            "French": "Brouillard sur les Hauts des Galgals"
         },
         "The Ruins of Belegost": {
-            "English": "The Ruins of Belegost"
+            "English": "The Ruins of Belegost",
+            "French": "Las Ruinas de Belegost"
         },
         "Murder at the Prancing Pony": {
-            "English": "Murder at the Prancing Pony"
+            "English": "Murder at the Prancing Pony",
+            "French": "Meurtre au Poney Fringant"
         },
         "Standard The Siege of Annuminas": {
-            "English": "Standard The Siege of Annuminas"
+            "English": "Standard The Siege of Annuminas",
+            "French": "Le Siège d'Annúminas - Standard"
         },
         "Epic The Siege of Annuminas": {
-            "English": "Epic The Siege of Annuminas"
+            "English": "Epic The Siege of Annuminas",
+            "French": "Le Siège d'Annúminas - Épique"
         },
         "The Lord of the Rings": {
-            "English": "The Lord of the Rings"
+            "English": "The Lord of the Rings",
+            "French": "Le Seigneur des Anneaux"
         },
         "The Core Set": {
-            "English": "The Core Set"
+            "English": "The Core Set",
+            "French": "Boîte de Base"
         },
         "Angmar Awakened": {
-            "English": "Angmar Awakened"
+            "English": "Angmar Awakened",
+            "French": "Le Réveil d'Angmar"
         },
         "name": {
-            "English": "Name"
+            "English": "Name",
+            "French": "Nom"
         },
         "sphere": {
-            "English": "Sphere"
+            "English": "Sphere",
+            "French": "Sphère"
         },
         "type": {
-            "English": "Type"
+            "English": "Type",
+            "French": "Type"
         },
         "traits": {
-            "English": "Traits"
+            "English": "Traits",
+            "French": "Traits"
         },
         "pack": {
-            "English": "Pack"
+            "English": "Pack",
+            "French": "Paquet"
         },
         "number": {
-            "English": "Number"
+            "English": "Number",
+            "French": "Numéro"
         },
         "myPlayArea": {
-            "English": "My Play Area"
+            "English": "My Play Area",
+            "French": "Ma zone de jeu"
         },
         "shuffleGroupIntoDeck": {
-            "English": "Shuffle Into Deck"
+            "English": "Shuffle Into Deck",
+            "French": "Mélanger dans le Deck"
         },
         "sharedEncounterDiscard": {
-            "English": "Encounter Discard"
+            "English": "Encounter Discard",
+            "French": "Pile défausse Rencontre"
         },
         "sharedEncounterDiscard2": {
-            "English": "Encounter Discard 2"
+            "English": "Encounter Discard 2",
+            "French": "Pile défausse Rencontre 2"
         },
         "sharedEncounterDiscard3": {
-            "English": "Encounter Discard 3"
+            "English": "Encounter Discard 3",
+            "French": "Pile défausse Rencontre 3"
         },
         "sharedOther": {
-            "English": "Other"
+            "English": "Other",
+            "French": "Autre"
         },
         "sharedSetAside": {
-            "English": "Set Aside"
+            "English": "Set Aside",
+            "French": "Mis de côté"
         },
         "sharedVictory": {
-            "English": "Victory Display"
+            "English": "Victory Display",
+            "French": "Pile de Victoire"
         },
         "sharedVictoryTable": {
-            "English": "Victory"
+            "English": "Victory",
+            "French": "Victoire"
         },
         "staging": {
-            "English": "Staging"
+            "English": "Staging",
+            "French": "Cheminement"
         },
         "active": {
-            "English": "Active"
+            "English": "Active",
+            "French": "Active"
         },
         "player1Hand": {
-            "English": "Player 1 Hand"
+            "English": "Player 1 Hand",
+            "French": "Main Joueur 1"
         },
         "hand": {
-            "English": "Hand"
+            "English": "Hand",
+            "French": "Main"
         },
         "deck": {
-            "English": "Deck"
+            "English": "Deck",
+            "French": "Deck"
         },
         "player1Discard": {
-            "English": "Player 1 Discard"
+            "English": "Player 1 Discard",
+            "French": "Défause joueur 1"
         },
         "player1Play1": {
-            "English": "Player 1 Play Area"
+            "English": "Player 1 Play Area",
+            "French": "Aire de jeu Joueur 1"
         },
         "playArea": {
-            "English": "Play Area"
+            "English": "Play Area",
+            "French": "Aire de jeu"
         },
         "player1Play2": {
-            "English": "Player 1 Play Area"
+            "English": "Player 1 Play Area",
+            "French": "Aire de jeu Joueur 1"
         },
         "player1Play3": {
-            "English": "Player 1 Play Area"
+            "English": "Player  Play Area",
+            "French": "Aire de jeu Joueur 1"
         },
         "player1Play4": {
-            "English": "Player 1 Play Area"
+            "English": "Player 1 Play Area",
+            "French": "Aire de jeu Joueur 1"
         },
         "player1Engaged": {
-            "English": "Player 1 Engaged"
+            "English": "Player 1 Engaged",
+            "French": "Z. d'Engagement Joueur 1"
         },
         "sideboard": {
-            "English": "Sideboard"
+            "English": "Sideboard",
+            "French": ""
         },
         "player1Sideboard": {
-            "English": "Player 1 Sideboard"
+            "English": "Player 1 Sideboard",
+            "French": "Sideboard Joueur 1"
         },
         "player2Sideboard": {
-            "English": "Player 2 Sideboard"
+            "English": "Player 2 Sideboard",
+            "French": "Sideboard Joueur 2"
         },
         "player3Sideboard": {
-            "English": "Player 3 Sideboard"
+            "English": "Player 3 Sideboard",
+            "French": "Sideboard Joueur 3"
         },
         "player4Sideboard": {
-            "English": "Player 4 Sideboard"
+            "English": "Player 4 Sideboard",
+            "French": "Sideboard Joueur 4"
         },
         "engaged": {
-            "English": "Engaged"
+            "English": "Engaged",
+            "French": "Engagement"
         },
         "player1Event": {
-            "English": "Player 1 Event"
+            "English": "Player 1 Event",
+            "French": "Événement Joueur 1"
         },
         "event": {
-            "English": "Event"
+            "English": "Event",
+            "French": "Événement"
         },
         "player2Hand": {
-            "English": "Player 2 Hand"
+            "English": "Player 2 Hand",
+            "French": "Main Joueur 2"
         },
         "player2Discard": {
-            "English": "Player 2 Discard"
+            "English": "Player 2 Discard",
+            "French": "Défause Joueur 2"
         },
         "player2Play1": {
-            "English": "Player 2 Play Area"
+            "English": "Player 2 Play Area",
+            "French": "Aire de jeu Joueur 2"
         },
         "player2Play2": {
-            "English": "Player 2 Play Area"
+            "English": "Player 2 Play Area",
+            "French": "Aire de jeu Joueur 2"
         },
         "player2Play3": {
-            "English": "Player 2 Play Area"
+            "English": "Player 2 Play Area",
+            "French": "Aire de jeu Joueur 2"
         },
         "player2Play4": {
-            "English": "Player 2 Play Area"
+            "English": "Player 2 Play Area",
+            "French": "Aire de jeu Joueur 2"
         },
         "player2Engaged": {
-            "English": "Player 2 Engaged"
+            "English": "Player 2 Engaged",
+            "French": "Engagement Joueur 2"
         },
         "player2Event": {
-            "English": "Player 2 Event"
+            "English": "Player 2 Event",
+            "French": "Événement Joueur 2"
         },
         "player3Hand": {
-            "English": "Player 3 Hand"
+            "English": "Player 3 Hand",
+            "French": "Main Joueur 3"
         },
         "player3Discard": {
-            "English": "Player 3 Discard"
+            "English": "Player 3 Discard",
+            "French": "Défause Joueur 3"
         },
         "player3Play1": {
-            "English": "Player 3 Play Area"
+            "English": "Player 3 Play Area",
+            "French": "Aire de jeu Joueur 3"
         },
         "player3Play2": {
-            "English": "Player 3 Play Area"
+            "English": "Player 3 Play Area",
+            "French": "Aire de jeu Joueur 3"
         },
         "player3Play3": {
-            "English": "Player 3 Play Area"
+            "English": "Player 3 Play Area",
+            "French": "Aire de jeu Joueur 3"
         },
         "player3Play4": {
-            "English": "Player 3 Play Area"
+            "English": "Player 3 Play Area",
+            "French": "Aire de jeu Joueur 3"
         },
         "player3Engaged": {
-            "English": "Player 3 Engaged"
+            "English": "Player 3 Engaged",
+            "French": "Engagement Joueur 3"
         },
         "player3Event": {
-            "English": "Player 3 Event"
+            "English": "Player 3 Event",
+            "French": "Événement Joueur 3"
         },
         "player4Hand": {
-            "English": "Player 4 Hand"
+            "English": "Player 4 Hand",
+            "French": "Main Joueur 3"
         },
         "player4Discard": {
-            "English": "Player 4 Discard"
+            "English": "Player 4 Discard",
+            "French": "Défause Joueur 4"
         },
         "player4Play1": {
-            "English": "Player 4 Play Area"
+            "English": "Player 4 Play Area",
+            "French": "Aire de jeu Joueur 4"
         },
         "player4Play2": {
-            "English": "Player 4 Play Area"
+            "English": "Player 4 Play Area",
+            "French": "Aire de jeu Joueur 4"
         },
         "player4Play3": {
-            "English": "Player 4 Play Area"
+            "English": "Player 4 Play Area",
+            "French": "Aire de jeu Joueur 4"
+			
         },
         "player4Play4": {
-            "English": "Player 4 Play Area"
+            "English": "Player 4 Play Area",
+            "French": "Aire de jeu Joueur 4"
         },
         "player4Engaged": {
-            "English": "Player 4 Engaged"
+            "English": "Player 4 Engaged",
+            "French": "Engagement Joueur 4"
         },
         "player4Event": {
-            "English": "Player 4 Event"
+            "English": "Player 4 Event",
+            "French": "Événement Joueur 4"
         },
         "sharedMainQuest": {
-            "English": "Main Quest"
+            "English": "Main Quest",
+            "French": "Quête Principale"
         },
         "player1Deck2": {
-            "English": "Player1 Deck2"
+            "English": "Player1 Deck2",
+            "French": ""
         },
         "player2Deck2": {
-            "English": "Player2 Deck2"
+            "English": "Player2 Deck2",
+            "French": "Deck 2 Joueur 2"
         },
         "player3Deck2": {
-            "English": "Player3 Deck2"
+            "English": "Player3 Deck2",
+            "French": "Deck 2 Joueur 3"
         },
         "player4Deck2": {
-            "English": "Player4 Deck2"
+            "English": "Player4 Deck2",
+            "French": "Deck 2 Joueur 4"
         },
         "exhaustReady": {
-            "English": "Exhaust/Ready"
+            "English": "Exhaust/Ready",
+            "French": "Incliner/Redresser"
         },
         "topBarStagingThreat": {
-            "English": "Threat"
+            "English": "Threat",
+            "French": "Menace"
         },
         "topBarStagingProgress": {
-            "English": "Progress"
+            "English": "Progress",
+            "French": "Progression"
         },
         "coreLeadership": {
-            "English": "30 Card Original Core Set Deck - Leadership"
+            "English": "30 Card Original Core Set Deck - Leadership",
+            "French": "30 cartes Boîte de Base - Commandement"
         },
         "coreLore": {
-            "English": "30 Card Original Core Set Deck - Lore"
+            "English": "30 Card Original Core Set Deck - Lore",
+            "French": "30 cartes Boîte de Base - Connaissance"
         },
         "coreSpirit": {
-            "English": "30 Card Original Core Set Deck - Spirit"
+            "English": "30 Card Original Core Set Deck - Spirit",
+            "French": "30 cartes Boîte de Base - Énergie "
         },
         "coreTactics": {
-            "English": "30 Card Original Core Set Deck - Tactics"
+            "English": "30 Card Original Core Set Deck - Tactics",
+            "French": "30 cartes Boîte de Base - Tactique"
         },
         "starterElves": {
-            "English": "Starter Deck - Elves of Lórien"
+            "English": "Starter Deck - Elves of Lórien",
+            "French": "Deck démarrage - Elfes de la Lórien"
         },
         "starterGondor": {
-            "English": "Starter Deck - Defenders of Gondor"
+            "English": "Starter Deck - Defenders of Gondor",
+            "French": "Deck démarrage - Défenseurs du Gondro"
         },
         "starterDwarves": {
-            "English": "Starter Deck - Dwarves of Durin"
+            "English": "Starter Deck - Dwarves of Durin",
+            "French": "Deck démarrage - Nains de Durin"
         },
         "starterRohan": {
-            "English": "Starter Deck - Riders of Rohan"
+            "English": "Starter Deck - Riders of Rohan",
+            "French": "Deck démarrage - Cavaliers du Rohan"
         },
         "questingToken": {
-            "English": "Questing Token"
+            "English": "Questing Token",
+            "French": "Jeton de Quête"
         },
         "preventRefresh": {
-            "English": "Prevent Refresh"
+            "English": "Prevent Refresh",
+            "French": "Pas redressement en Phase Restauration "
         },
         "swapWithTop": {
-            "English": "Swap with top card in deck of origin"
+            "English": "Swap with top card in deck of origin",
+            "French": "Échanger avec carte du dessus du deck"
         },
         "discardUntilLocation": {
-            "English": "Discard Until Location"
+            "English": "Discard Until Location",
+            "French": "Défausser jusqu'à un Lieu"
         },
         "discardUntilEnemy": {
-            "English": "Discard Until Enemy"
+            "English": "Discard Until Enemy",
+            "French": "Défausser jusqu'à un Ennemi"
         },
         "showQuestDeck": {
-            "English": "Show Quest Deck"
+            "English": "Show Quest Deck",
+            "French": "Montrer Deck de Quête"
         }
     }
 }
